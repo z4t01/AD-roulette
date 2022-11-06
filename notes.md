@@ -33,6 +33,7 @@ Just provided their `hostname` value.
 Before running the script, be sure to:
 * enable wmi 
 * change DNS to DC IP
+* disable fireall
 
 **Enable wmi**
 
