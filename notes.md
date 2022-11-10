@@ -37,6 +37,7 @@ Before running the script, be sure to:
 
 **Enable wmi**
 
+Change Newtork time to Private. Then:
 ```
 winrm quickconfig
 ```
