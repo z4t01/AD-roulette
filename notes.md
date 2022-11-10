@@ -30,6 +30,8 @@ Set-DnsClientServerAddress -InterfaceIndex 5 -ServerAddresses $DC_IP
 The workstations/servers will be joined automatically by the script.
 Just provided their `hostname` value.
 
+Note: If you clone VMs, you could need to [generate a new SID](https://mivilisnet.wordpress.com/2017/06/29/changing-sid-of-cloned-vms/).
+
 Before running the script, be sure to:
 * enable wmi 
 * change DNS to DC IP
