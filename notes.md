@@ -36,10 +36,10 @@ Before running the script, be sure to:
 * enable wmi 
 * change DNS to DC IP
 * disable fireall
+* change Newtork type to Private
 
 **Enable wmi**
 
-Change Newtork time to Private. Then:
 ```
 winrm quickconfig
 ```
